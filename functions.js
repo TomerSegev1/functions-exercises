@@ -9,7 +9,25 @@
 //     }
 
 //exercise3
-const calculate = (a, b) => {
-        return console.log(a % b)
+// const calculate = (a, b) => {
+//         return console.log(a % b)
+//     }
+
+//exercise4
+// const devide = (a, b) => {
+//     if (devide(a, 0)) {
+//         return null && console.log("illegal") 
+//     }
+//     else {
+//         return a / b
+//     }
+// }
+
+//exercise5
+const factorial = (a) => {
+    for(index = (a - 1); index >= 1; index--) {
+        a = a * index
     }
-    calculate(4,2)
+    return a
+}
+console.log(factorial(4))
