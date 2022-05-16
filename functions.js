@@ -25,15 +25,27 @@
 
 //exercise5
 // const factorial = (a) => {
+//     if (a === 0 || a === 1){
+//         return 1;
+//     }
 //     for(index = (a - 1); index >= 1; index--) {
 //         a = a * index
 //     }
 //     return a
 // }
-// console.log(factorial(4))
 
 //exercise6
-const beep = (str) => {
-    return str + "beep"
+// const beep = (str) => {
+//     return str + "beep"
+// }
+
+//exercise7
+const mul2nums = (a, b) => {
+    if (a*b < 0) {
+        return 0
+    }
+    else {
+        return a*b
+    }
 }
-console.log(beep("tomer"))
+console.log(mul2nums(2, -2))
