@@ -40,12 +40,20 @@
 // }
 
 //exercise7
+// const mul2nums = (a, b) => {
+//     if (a*b < 0) {
+//         return 0
+//     }
+//     else {
+//         return a*b
+//     }
+// }
+
+//exercise8
 const mul2nums = (a, b) => {
-    if (a*b < 0) {
-        return 0
+    let sum = 0;
+    for(index = 0; index < b; index++) {
+        sum = sum + a
     }
-    else {
-        return a*b
-    }
+    return sum 
 }
-console.log(mul2nums(2, -2))
