@@ -24,10 +24,16 @@
 // }
 
 //exercise5
-const factorial = (a) => {
-    for(index = (a - 1); index >= 1; index--) {
-        a = a * index
-    }
-    return a
+// const factorial = (a) => {
+//     for(index = (a - 1); index >= 1; index--) {
+//         a = a * index
+//     }
+//     return a
+// }
+// console.log(factorial(4))
+
+//exercise6
+const beep = (str) => {
+    return str + "beep"
 }
-console.log(factorial(4))
+console.log(beep("tomer"))
