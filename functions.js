@@ -167,8 +167,15 @@ const func = (object) => {
 const funcValue = (obj) => {
     console.log(Object.values(obj));
 }
-funcValue({
+
+//ex18
+const funcKeyValue = (obj, key, value) => {
+    obj[key] = value;
+    return obj;
+}
+console.log(funcKeyValue({
     name: "tomer",
-    age: 42,
-    married: false
-})
+    age: 19,
+    Home: "Holon"
+}, "height", "190cm"))
+
