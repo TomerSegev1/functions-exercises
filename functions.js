@@ -173,9 +173,10 @@ const funcKeyValue = (obj, key, value) => {
     obj[key] = value;
     return obj;
 }
-console.log(funcKeyValue({
-    name: "tomer",
-    age: 19,
-    Home: "Holon"
-}, "height", "190cm"))
 
+//ex19
+const funcSumNumbers = (numbers) => {
+    return sumNumbers = numbers.reduce((accumulator, number) => {
+        return accumulator + number;
+    } ,0)
+}
