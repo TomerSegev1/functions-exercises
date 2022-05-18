@@ -147,5 +147,28 @@ const student = (student) => {
 const rev = (num) => {
     return parseFloat(num.toString().split('').reverse().join('')) * Math.sign(num)
 }
-console.log(rev(12345))
 
+//exercise15
+const checkIf = (array, value) => {
+    return array.includes(value);
+}
+checkIf(["tomer", "shon", "miki"], "tomer")
+
+//exercise16
+const func = (object) => {
+    keys = Object.keys(object);
+    let len = keys.length;
+   for (i = 0; i < len; i++) {
+       console.log(keys[i]);
+   }
+}
+
+//ex17
+const funcValue = (obj) => {
+    console.log(Object.values(obj));
+}
+funcValue({
+    name: "tomer",
+    age: 42,
+    married: false
+})
